@@ -8,7 +8,7 @@ It is not commonly known to use this because theres swift. But Xcode is cringe. 
 
 You basically need another MacOS machine for programming on Xcode using swift just to program freely without intefereing with everything else a computer is used for, including the various hobbies or interests that requires physical hardware like; Video Editing, Game Developement (Unreal Engine, Unity, etc), Music (instrumental sounds) and more. 
 
-## Who is this project for?
+## Who is this project best for?
 - OS: MacOS Seqouia 15.1
 - RAM: 8GB
 - Storage: Average
@@ -23,6 +23,10 @@ git clone https://github.com/H12M54AM/blank-opengl-window.git
 ```bash
 git@github.com:H12M54AM/blank-opengl-window.git
 ```
+
+## What does the project look like?
+![Blank Project Window](./projectwindow.png "An empty, unused window with infinite potential")
+Yep... That's it. 
 
 # Resources
 Maybe these will help you too :)

@@ -27,3 +27,5 @@ git@github.com:H12M54AM/blank-opengl-window.git
 # Resources
 Maybe these will help you too :)
 - [C++ OpenGL Setup by Codeus - Youtube](https://www.youtube.com/watch?v=Y4F0tI7WlDs)
+- [Welcome to OpenGL by The Cherno - Youtube](https://www.youtube.com/watch?v=W3gAzLwfIP0&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2)
+- [How to setup GLFW on new Macs by LuTheCoder - Youtube](https://www.youtube.com/watch?v=6AHq0jTrypw&t=471s)

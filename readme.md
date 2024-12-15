@@ -1,4 +1,5 @@
-# Blank GLFW Window
+# Visual Dictionary
+*A fork/extention on OpenGL blankwindow Repo*
 
 ## Main Goal
 To create a usable .app window for the ARM architecture in MacOS, for MacOS. 

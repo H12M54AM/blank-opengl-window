@@ -1,6 +1,6 @@
-APP_NAME = blankwindow
-BUILD_DIR = ./bin
-C_FILES = ./src/*.cpp
+APP_NAME = dictionary
+BUILD_DIR = ./bin/Visual\ Dictionary.app/contents/MacOS/
+C_FILES = ./src/main.cpp
 
 APP_DEFINES:= 
 APP_INCLUDES:= -I./src/vendors/GLFW -framework Cocoa -framework OpenGL -framework IOKit

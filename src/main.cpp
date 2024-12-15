@@ -1,10 +1,18 @@
 #include "vendors/GLFW/glfw3.h"
 #include <iostream>
+#include "imgui/imgui.h"
+#include "imgui/imgui_impl_glfw.h"
+#include "imgui/imgui_impl_opengl3.h"
+// #include <leif/leif.c>
 
 using namespace std;
 
 int main(void)
 {
+    // VARIABLES
+    int width, height;
+    
+    // OBJECTS
     GLFWwindow* window;
 
     /* Initialize the library */
@@ -12,7 +20,9 @@ int main(void)
         return -1;
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(640, 480, "Blank OpenGL Window", NULL, NULL);
+    window = glfwCreateWindow(1080, 720, "Visual Dictionary", NULL, NULL);
+    
+    // lf_init_glfw();
     if (!window)
     {
         glfwTerminate();

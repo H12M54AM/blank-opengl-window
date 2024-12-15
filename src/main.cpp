@@ -3,7 +3,6 @@
 #include "imgui/imgui_impl_opengl3.h"
 #include "vendors/GLFW/glfw3.h"
 #include <iostream>
-// #include <leif/leif.c>
 
 using namespace std; 
 using namespace ImGui;
@@ -12,17 +11,14 @@ using namespace ImGui;
 int main(void)
 {
 
-    // OBJECTS
     GLFWwindow* window;
 
-    /* Initialize the library */
     if (!glfwInit())
         return -1;
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(1080, 720, "Visual Dictionary", NULL, NULL);
-    
-    // lf_init_glfw();
+    window = glfwCreateWindow(1080, 720, "Blank Window", NULL, NULL);
+
     if (!window)
     {
         glfwTerminate();

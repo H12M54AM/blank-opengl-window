@@ -1,24 +1,9 @@
-# CXX = clang
-# APP_NAME = dictionary
-# BUILD_DIR = ./bin/Visual\ Dictionary.app/contents/MacOS/
-# C_FILES = ./src/main.cpp
-
-# APP_DEFINES:= 
-# APP_INCLUDES:= -I./src/vendors/GLFW -framework Cocoa -framework OpenGL -framework IOKit -L./src/vendors/GLFW/lib -lglfw3 -std=c++11
-# APP_LINKERS:= -L./src/vendors/GLFW/lib -lglfw3
-
-# build:
-# 	clang++ $(C_FILES) -o $(BUILD_DIR)/$(APP_NAME) $(APP_INCLUDES) $(APP_LINKERS)
-# Compiler and flags
-# Compiler and flags
-# Compiler and flags
 CXX = clang++
 CXXFLAGS = -std=c++11 -Wall -Wextra -I./src/vendors/GLFW -I./src/imgui
 
 # Frameworks and libraries
 FRAMEWORKS = -framework Cocoa -framework OpenGL -framework IOKit
 LIBS = -L/opt/homebrew/lib -lglfw
-#-L./src/vendors/GLFW/lib/ -lglfw
 
 # Source directories
 SRC_DIR = ./src
